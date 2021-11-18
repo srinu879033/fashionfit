@@ -45,6 +45,7 @@ class App extends Component {
   removeAllCartItems = () => {
     localStorage.setItem(cartStorage, JSON.stringify([]));
     this.setState({ cartList: [] });
+    alert("Cart was made Empty");
   };
 
   incrementCartItemQuantity = (id) => {
@@ -75,6 +76,7 @@ class App extends Component {
       });
       localStorage.setItem(cartStorage, JSON.stringify(updatedCartList));
       this.setState({ cartList: updatedCartList });
+      alert("Cart has been updated");
     } else {
       this.removeCartItem(id);
     }
@@ -87,6 +89,7 @@ class App extends Component {
     );
     localStorage.setItem(cartStorage, JSON.stringify(updatedCartList));
     this.setState({ cartList: updatedCartList });
+    alert("Removed from Cart");
   };
 
   addCartItem = (product) => {
@@ -108,11 +111,13 @@ class App extends Component {
 
       localStorage.setItem(cartStorage, JSON.stringify(updatedCartList));
       this.setState({ cartList: updatedCartList });
+      alert("Cart has been Updated");
     } else {
       const updatedCartList = [...cartList, product];
       localStorage.setItem(cartStorage, JSON.stringify(updatedCartList));
 
       this.setState({ cartList: updatedCartList });
+      alert("Added To Cart");
     }
   };
   1;
