@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/fashionfit/static/css/main.29846f54.chunk.css",
+    "main.js": "/fashionfit/static/js/main.ce05a3f7.chunk.js",
+    "main.js.map": "/fashionfit/static/js/main.ce05a3f7.chunk.js.map",
+    "runtime-main.js": "/fashionfit/static/js/runtime-main.683b0317.js",
+    "runtime-main.js.map": "/fashionfit/static/js/runtime-main.683b0317.js.map",
+    "static/js/2.44652892.chunk.js": "/fashionfit/static/js/2.44652892.chunk.js",
+    "static/js/2.44652892.chunk.js.map": "/fashionfit/static/js/2.44652892.chunk.js.map",
+    "index.html": "/fashionfit/index.html",
+    "static/css/main.29846f54.chunk.css.map": "/fashionfit/static/css/main.29846f54.chunk.css.map",
+    "static/js/2.44652892.chunk.js.LICENSE.txt": "/fashionfit/static/js/2.44652892.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.683b0317.js",
+    "static/js/2.44652892.chunk.js",
+    "static/css/main.29846f54.chunk.css",
+    "static/js/main.ce05a3f7.chunk.js"
+  ]
+}
